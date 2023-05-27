@@ -3,5 +3,6 @@ public class Main {
         System.out.println(DayOne.solve());
         System.out.println(DayOne.solveTwo());
         System.out.println(DayTwo.solve());
+
     }
 }

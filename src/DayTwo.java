@@ -59,7 +59,7 @@ public class DayTwo {
                 var round = new Round(split[0], split[1]);
                 score += round.playRound();
             }
-            return "My total score is: " + score + ".\n";
+            return "DAY2:\nMy total score is: " + score + ".\n";
 
         } catch (IOException exception) {
             exception.printStackTrace();
