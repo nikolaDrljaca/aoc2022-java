@@ -4,5 +4,6 @@ public class Main {
         System.out.println(DayOne.solveTwo());
         System.out.println(DayTwo.solve());
         System.out.println(DayThree.solve());
+        System.out.println(DayFour.solve());
     }
 }
