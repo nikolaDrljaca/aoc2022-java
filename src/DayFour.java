@@ -17,7 +17,7 @@ public class DayFour {
                 if (second.contains(first)) counter++;
             }
 
-            return "Total number of contained paris is: " + counter + ".\n";
+            return "Day 4 - Total number of contained paris is: " + counter + ".\n";
         } catch (IOException e) {
             e.printStackTrace();
             return null;

@@ -30,7 +30,7 @@ public class DayThree {
                 }
                 return value;
             }).reduce(0, Integer::sum);
-            return "Day 3:\nPriority sum is: " + totalPrio + ".\n";
+            return "Day 3 - Priority sum is: " + totalPrio + ".\n";
         } catch (Exception e) {
             e.printStackTrace();
             return null;

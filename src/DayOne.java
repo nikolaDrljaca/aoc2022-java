@@ -25,7 +25,7 @@ public class DayOne {
                     curr = 0;
                 }
             }
-            return "DAY 1:\nThe highest calorie value is: " +
+            return "Day 1 - The highest calorie value is: " +
                     max +
                     ".\n";
         } catch (IOException exception) {
@@ -53,7 +53,7 @@ public class DayOne {
                     .sorted()
                     .toList();
             var b = new StringBuilder();
-            b.append("DAY 1:\nThe elf ");
+            b.append("Day 1 - The elf ");
             b.append(res.size());
             b.append(" has the highest calorie count, which is: ");
             b.append(res.get(res.size() - 1));
