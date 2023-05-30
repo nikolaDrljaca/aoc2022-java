@@ -7,5 +7,6 @@ public class Main {
         System.out.println(DayFour.solve());
         System.out.println(DayFive.solve());
         System.out.println(DaySix.solve());
+        System.out.println(DaySeven.solve());
     }
 }
