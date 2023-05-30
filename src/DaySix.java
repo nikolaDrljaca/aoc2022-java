@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedList;
 
 public class DaySix {
 
@@ -20,16 +21,16 @@ public class DaySix {
 
     private static class SignalChecker {
         private int capacity;
-        private ArrayList<Character> elems;
+        private LinkedList<Character> elems;
 
         public SignalChecker(int capacity) {
             this.capacity = capacity;
-            this.elems = new ArrayList<>(capacity);
+            this.elems = new LinkedList<>();
         }
 
         public void add(Character ch) {
             if (elems.size() == capacity) {
-                elems.remove(0);
+                elems.removeFirst();
                 elems.add(ch);
             } else {
                 elems.add(ch);
