@@ -1,10 +1,7 @@
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 
 public class DayTen {
 
@@ -12,7 +9,7 @@ public class DayTen {
         try {
             var lines = Files.readAllLines(Path.of("day10.txt"));
             var signals = new ArrayList<Integer>();
-            var commands = new ArrayDeque<Command>();
+            var commands = new LinkedList<Command>();
             int x = 1;
             var ticks = 0;
             int checkSignal = 20;
